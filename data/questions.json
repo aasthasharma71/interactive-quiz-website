@@ -1,0 +1,113 @@
+
+[
+    {
+        "question": "Which language is primarily used to structure web pages?",
+        "options": [
+            "Python",
+            "HTML",
+            "Java",
+            "C"
+        ],
+        "answer": "HTML",
+        "explanation": "HTML stands for HyperText Markup Language. It defines the structure of web pages."
+    },
+    {
+        "question": "Which language is used to style web pages?",
+        "options": [
+            "CSS",
+            "SQL",
+            "C++",
+            "Python"
+        ],
+        "answer": "CSS",
+        "explanation": "CSS stands for Cascading Style Sheets. It controls the appearance and layout of web pages."
+    },
+    {
+        "question": "Which of the following is a JavaScript data type?",
+        "options": [
+            "Integer",
+            "Boolean",
+            "Character",
+            "All of these"
+        ],
+        "answer": "Boolean",
+        "explanation": "Boolean is a JavaScript data type that represents true or false values."
+    },
+    {
+        "question": "What does CPU stand for?",
+        "options": [
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Program Utility",
+            "Control Processing User"
+        ],
+        "answer": "Central Processing Unit",
+        "explanation": "CPU stands for Central Processing Unit. It executes instructions and processes data."
+    },
+    {
+        "question": "Which symbol is used for single-line comments in JavaScript?",
+        "options": [
+            "<!-- -->",
+            "//",
+            "##",
+            "**"
+        ],
+        "answer": "//",
+        "explanation": "Double forward slashes (//) are used for single-line comments in JavaScript."
+    },
+    {
+        "question": "Which database language is used to retrieve data?",
+        "options": [
+            "HTML",
+            "CSS",
+            "SQL",
+            "XML"
+        ],
+        "answer": "SQL",
+        "explanation": "SQL stands for Structured Query Language. SELECT statements retrieve data from databases."
+    },
+    {
+        "question": "Which keyword declares a variable that can be reassigned in JavaScript?",
+        "options": [
+            "const",
+            "let",
+            "static",
+            "define"
+        ],
+        "answer": "let",
+        "explanation": "The let keyword declares a block-scoped variable that can be reassigned."
+    },
+    {
+        "question": "Which company developed the Python programming language?",
+        "options": [
+            "Microsoft",
+            "Google",
+            "Python Software Foundation",
+            "Meta"
+        ],
+        "answer": "Python Software Foundation",
+        "explanation": "Python was created by Guido van Rossum. The Python Software Foundation supports its development."
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+        ],
+        "answer": "<a>",
+        "explanation": "The anchor tag <a> creates hyperlinks using the href attribute."
+    },
+    {
+        "question": "Which method converts a JSON string into a JavaScript object?",
+        "options": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "JSON.convert()",
+            "JSON.object()"
+        ],
+        "answer": "JSON.parse()",
+        "explanation": "JSON.parse() converts a valid JSON string into a JavaScript value or object."
+    }
+]

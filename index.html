@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Test your knowledge with our interactive quiz website.">
+
+    <title>QuizMaster | Interactive Quiz</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <!-- Welcome Screen -->
+        <section id="welcome-screen" class="screen">
+
+            <h1>Welcome to QuizMaster!</h1>
+
+            <p>Test your knowledge and challenge yourself.</p>
+
+            <p class="welcome-info">
+                Answer multiple-choice questions and see your final score.
+            </p>
+
+            <button id="start-btn" class="primary-btn">
+                Start Quiz
+            </button>
+
+        </section>
+
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen hidden">
+
+            <div class="quiz-header">
+
+                <span id="question-counter">
+                    Question 1 of 10
+                </span>
+
+                <span id="score">
+                    Score: 0
+                </span>
+
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+
+                <div id="progress-bar"></div>
+
+            </div>
+
+            <h2 id="question-text">
+                Question will appear here
+            </h2>
+
+            <!-- Answer Options -->
+            <div id="options-container">
+
+            </div>
+
+            <!-- Answer Feedback -->
+            <p id="feedback" aria-live="polite"></p>
+
+            <button id="next-btn" class="primary-btn hidden">
+                Next Question
+            </button>
+
+        </section>
+
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="screen hidden">
+
+            <h1>Quiz Completed!</h1>
+
+            <p class="result-message">
+                Congratulations on completing the quiz.
+            </p>
+
+            <h2 id="final-score">
+                Your Score: 0/10
+            </h2>
+
+            <p id="result-description"></p>
+
+            <button id="restart-btn" class="primary-btn">
+                Restart Quiz
+            </button>
+
+        </section>
+
+    </div>
+
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
